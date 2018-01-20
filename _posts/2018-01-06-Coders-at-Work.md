@@ -5,9 +5,6 @@ date:   2018-01-06 16:17:18 +0800
 categories: note
 ---
 
-
-程序员给人的印象有一种神秘感，似乎给他一台联网的电脑，他就能做任何事情。
-
 ![Coders at Work](https://img3.doubanio.com/lpic/s4549954.jpg)
 
 最近看了这本书：[Coders at Work](https://book.douban.com/subject/5355285/)（中文名：《编程人生》），着实有趣，摘录一些我喜欢的段落分享一下。
