@@ -20,5 +20,13 @@ A further goal: Financial freedom.
 A further further goal: Playing.（[Just for fun](https://en.wikipedia.org/wiki/Linus_Torvalds#Bibliography)）。
 
 
+These are my favourite books:
 
+- 《三体》
+- 《一切只是为了好玩》
+- 《时间简史》
+- 《思考致富》
+- 《挪威的森林》
+- 《人性的弱点》
+- 《黑客与画家》
 
