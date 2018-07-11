@@ -2,7 +2,7 @@
 layout: post
 title:  "Time Timezone and Calendar"
 date:   2017-07-20 16:36:18 +0800
-categories: note
+categories: notes
 ---
 
 ![Time](/images/time.png "time")

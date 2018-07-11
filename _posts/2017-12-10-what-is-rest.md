@@ -2,7 +2,7 @@
 layout: post
 title:  "什么是 REST ？"
 date:   2017-12-10 12:26:18 +0800
-categories: rest
+categories: dev
 ---
 
 ### 六条设计规范定义了一个 REST 系统的特点:

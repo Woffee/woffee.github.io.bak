@@ -2,7 +2,7 @@
 layout: post
 title:  "为什么书呆子不受欢迎 ？"
 date:   2017-12-10 14:26:18 +0800
-categories: note
+categories: notes
 ---
 
 《黑客与画家》这本书写的很有趣，摘抄一些我既感觉奇葩又认可的段落：
