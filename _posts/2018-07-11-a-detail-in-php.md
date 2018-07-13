@@ -5,6 +5,8 @@ date:   2018-07-11 11:33:00 +0800
 categories: dev
 ---
 
+![A detail in PHP](/images/a_detail_in_php.png "A detail in PHP")
+
 我向来很喜欢PHP的关联数组，因为它与json之间的转换是如此的“完美”。
 
 但是，最近由于一个相关的bug，我改变了这一点。
