@@ -2,7 +2,7 @@
 layout: post
 title:  "How to install shadowsocks server on Centos7"
 date:   2018-05-19 12:05:00 +0800
-categories: notes
+categories: tutorial
 ---
 
 Cant be too easy.

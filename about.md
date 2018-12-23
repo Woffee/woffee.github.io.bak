@@ -5,7 +5,7 @@ permalink: /about/
 ---
 
 
-Graduated in 2017. Now is a Web programmer, works for [DXY.com](https://DXY.com).
+Graduated in 2017, works for [DXY.com](https://DXY.com).
 
 `Love compuuter games`. When I was 6, my friend had a NES ([Nintendo Entertainment System](https://en.wikipedia.org/wiki/Nintendo_Entertainment_System)), that was and is an amazing toy. Two of the most impressive games are Contra and Bomberman.
 
@@ -13,17 +13,4 @@ Graduated in 2017. Now is a Web programmer, works for [DXY.com](https://DXY.com)
 
 ![My first PDA that can programe](/images/wenquxing_open.jpeg "My first PDA that can programe")
 
-`Games + Programming => Love computer`. I like everything about computer. [Just for fun](https://en.wikipedia.org/wiki/Linus_Torvalds#Bibliography).
-
-
-These are my favourite books:
-
-- 《三体》
-- 《一切只是为了好玩》
-- 《时间简史》
-- 《思考致富》
-- 《挪威的森林》
-- 《人性的弱点》
-- 《黑客与画家》
-- 《大数据：正在到来的数据革命》
-
+`Love computer`. I like everything about computer. [Just for fun](https://en.wikipedia.org/wiki/Linus_Torvalds#Bibliography).

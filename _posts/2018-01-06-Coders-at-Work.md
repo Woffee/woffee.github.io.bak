@@ -2,7 +2,7 @@
 layout: post
 title:  "Coders at work"
 date:   2018-01-06 16:17:18 +0800
-categories: notes
+categories: life
 ---
 
 ![Coders at Work](https://img3.doubanio.com/lpic/s4549954.jpg)
