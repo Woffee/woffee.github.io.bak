@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "LeetCode 234. Palindrome Linked List"
-date:   2017-07-20 16:36:18 +0800
+date:   2019-02-20 22:36:18 +0800
 categories: tutorial
 ---
 
