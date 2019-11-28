@@ -4,10 +4,16 @@ title: About
 permalink: /about/
 ---
 
-
 Graduate Student, Kent State University.
 
-Books I have read:
+### Interests
+
+ * Data Mining
+ * Artificial Intelligence
+ * Machine learning
+ * NLP
+
+### Books
 
  - 《三体》
  - 《活着》
@@ -24,3 +30,18 @@ Books I have read:
  - 《Just for fun》
  - 《人月神话》
  - 《肖申克的救赎》
+ - 《人民的名义》
+ - 《琅琊榜》
+
+### Movies
+
+ - 星际穿越
+ - I, robot
+ - 肖申克的救赎
+ - 了不起的盖兹比
+ - Joker
+ - Leon
+
+### Others
+
+The blog is own by person, without commercial purposes.
