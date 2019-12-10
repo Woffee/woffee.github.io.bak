@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Docker notes 2 - Using Dockerfile to build own image"
+title:  "Docker notes - Using Dockerfile to build own image"
 date:   2019-12-09 11:11:18 +0800
 categories: tutorial
 ---
