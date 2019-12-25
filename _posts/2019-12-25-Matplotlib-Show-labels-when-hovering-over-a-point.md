@@ -7,7 +7,7 @@ categories: notes
 
 ![Demo](/images/2019/002.jpg)
 
-This code is modified based on [here](https://www.ojit.com/article/77368)
+This code is modified based on [here](https://stackoverflow.com/questions/7908636/possible-to-make-labels-appear-when-hovering-over-a-point-in-matplotlib)
 
 ```python
 
