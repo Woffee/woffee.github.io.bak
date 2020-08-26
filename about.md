@@ -4,11 +4,10 @@ title: About
 permalink: /about/
 ---
 
-Graduate Student, Kent State University.
+A PhD Student, New Jersey Institute of Technology.
 
 ### Interests
 
- * Data Mining
  * Artificial Intelligence
  * Machine learning
  * NLP
@@ -32,6 +31,7 @@ Graduate Student, Kent State University.
  - 《肖申克的救赎》
  - 《人民的名义》
  - 《琅琊榜》
+ - 《余罪》
 
 ### Movies
 
