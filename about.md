@@ -14,7 +14,7 @@ A PhD Student, New Jersey Institute of Technology.
 
 ### Publications
 
- * [2020 - Multiplex network reconstruction for the coupled spatial diffusion of infodemic and pandemic of COVID-19](https://www.tandfonline.com/doi/ref/10.1080/17538947.2021.1888326)
+ * [2020 - Multiplex network reconstruction for the coupled spatial diffusion of infodemic and pandemic of COVID-19](https://www.tandfonline.com/doi/full/10.1080/17538947.2021.1888326)
 
 
 ### Books
