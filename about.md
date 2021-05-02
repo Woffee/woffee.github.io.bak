@@ -14,10 +14,12 @@ A PhD Student, New Jersey Institute of Technology.
 
 ### Publications
 
- * [2020 - Multiplex network reconstruction for the coupled spatial diffusion of infodemic and pandemic of COVID-19](https://www.tandfonline.com/doi/full/10.1080/17538947.2021.1888326)
+ * [2020 - Zhang, X., Zhang, Z. K., Wang, W., Hou, D., Xu, J., Ye, X., & Li, S. (2021). Multiplex network reconstruction for the coupled spatial diffusion of infodemic and pandemic of COVID-19. International Journal of Digital Earth, 14(4), 401-423.](https://www.tandfonline.com/doi/full/10.1080/17538947.2021.1888326)
+
+ * [2021 - Reconstructing spatial information diffusion networks with heterogeneous agents and text contents.](http://doi.org/10.1111/tgis.12747)
 
 
-### Books
+### Favorite books
 
  - 《三体》
  - 《活着》
@@ -46,6 +48,8 @@ A PhD Student, New Jersey Institute of Technology.
  - 了不起的盖兹比
  - Joker
  - Leon
+ - 天空之城
+ - 无间道
 
 ### Others
 
