@@ -4,19 +4,19 @@ title: About
 permalink: /about/
 ---
 
-A PhD Student, New Jersey Institute of Technology.
+Wenbo Wang, PhD student, Department of Informatics, New Jersey Institute of Technology.
 
 ### Interests
 
- * Artificial Intelligence
- * Machine learning
+ * Machine Learning
  * NLP
+ * Vulnerability Detection
 
 ### Publications
 
- * [2020 - Zhang, X., Zhang, Z. K., Wang, W., Hou, D., Xu, J., Ye, X., & Li, S. (2021). Multiplex network reconstruction for the coupled spatial diffusion of infodemic and pandemic of COVID-19. International Journal of Digital Earth, 14(4), 401-423.](https://www.tandfonline.com/doi/full/10.1080/17538947.2021.1888326)
-
  * [2021 - Reconstructing spatial information diffusion networks with heterogeneous agents and text contents.](http://doi.org/10.1111/tgis.12747)
+
+ * [2021 - Zhang, X., Zhang, Z. K., Wang, W., Hou, D., Xu, J., Ye, X., & Li, S. (2021). Multiplex network reconstruction for the coupled spatial diffusion of infodemic and pandemic of COVID-19. International Journal of Digital Earth, 14(4), 401-423.](https://www.tandfonline.com/doi/full/10.1080/17538947.2021.1888326)
 
 
 ### Favorite books
