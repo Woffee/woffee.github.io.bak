@@ -1,66 +1,138 @@
-<!-- ---
-layout: default
----
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+<head>
+     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
+     <title>Wenbo Wang Personal Webpage</title>
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
-  {% endfor %}
-</div> -->
+     <style type="text/css">
+        * { margin: 0; padding: 0; }
+        body { font: 16px Helvetica, Sans-Serif; line-height: 24px; background: url(images/texture2.jpeg); }
+        .clear { clear: both; }
+        #page-wrap { width: 800px; margin: 40px auto 60px; }
+        #pic { float: right; margin: -30px 0 0 0; }
+        h1 { margin: 0 0 16px 0; padding: 0 0 16px 0; font-size: 42px; font-weight: bold; letter-spacing: -2px; border-bottom: 1px solid #999; }
+        h2 { font-size: 20px; margin: 0 0 6px 0; position: relative; }
+        h2 span { position: absolute; bottom: 0; right: 0; font-style: italic; font-family: Georgia, Serif; font-size: 16px; color: #999; font-weight: normal; }
+        p { margin: 0 0 16px 0; }
+        a { color: #999; text-decoration: none; border-bottom: 1px dotted #999; }
+        a:hover { border-bottom-style: solid; color: black; }
+        ul { margin: 0 0 32px 17px; }
+        #objective { width: 500px; float: left; }
+        #objective p { font-family: Georgia, Serif; font-style: italic; color: #666; }
+        dt { font-style: italic; font-weight: bold; font-size: 18px; text-align: right; padding: 0 26px 0 0; width: 150px; float: left; height: 100px; border-right: 1px solid #999;  }
+        dd { width: 600px; float: right; }
+        dd.clear { float: none; margin: 0; height: 15px; }
+        img {height: 303px; width: auto;}
+     </style>
+</head>
+
+<body>
+
+    <div id="page-wrap">
+
+        <img src="images/wenbo.png" alt="Photo of Wenbo" id="pic" />
+
+        <div id="contact-info" class="vcard">
+
+            <!-- Microformats! -->
+
+            <h1 class="fn">Wenbo Wang</h1>
+
+            <p>
+                <!-- Cell: <span class="tel">555-666-7777</span><br /> -->
+                <!-- Email: <a class="email" href="mailto:greatoldone@lovecraft.com">greatoldone@lovecraft.com</a> -->
+                Email: ww6 at njit dot edu
+            </p>
+        </div>
+
+        <div id="objective">
+            <p>
+                Wenbo Wang is a Ph.D. student in the Department of Informatics, College of Computing, New Jersey Institute of Technology. His research interests include Machine Learning, Deep Learning, Software Security, Natural Language Processing, etc.
+            </p>
+        </div>
+
+        <div class="clear"></div>
+
+        <dl>
+            <dd class="clear"></dd>
+
+            <dt>Education</dt>
+            <dd>
+                <h2>New Jersey Institute of Technology<span>January 2020 - Present</span></h2>
+                <!-- <p><strong>Major:</strong> Ph.D of Information Systems<br /> -->
+                <p>Ph.D of Information Systems,<br />
+                Department of Informatics</p>
+
+                <h2>Kent State University<span>August 2019 - December 2019</span></h2>
+                <!-- <p><strong>Major:</strong> Ph.D of Information Systems<br /> -->
+                <p>Master of Computer Science,<br />
+                Department of Computer Science</p>
+
+                <h2>Henan University<span>September 2013 - June 2017</span></h2>
+                <!-- <p><strong>Major:</strong> Ph.D of Information Systems<br /> -->
+                <p>Bachelor of Computer Science,<br />
+                Department of Computer Information and Engineering</p>
+            </dd>
+
+            <dd class="clear"></dd>
+
+            <dt>Experience</dt>
+            <dd>
+                <h2>Ding Xiang Yuan Company<span>June 2017 - July 2018</span></h2>
+                <p><strong>Back-end Engineer</strong><br>
+                    Developing and maintaining a medical data analysis system called Insight (<a href="https://db.dxy.cn">https://db.dxy.cn</a>)
+                </p>
+                <!-- <ul>
+                    <li>Inspired and won highest peasant death competition among servants</li>
+                    <li>Helped coordinate managers to grow cult following</li>
+                    <li>Provided untimely deaths to all who opposed</li>
+                </ul> -->
+
+                <h2>Douyu Company<span>August 2016 - January 2017</span></h2>
+                <p><strong>Back-end Developer</strong><br>
+                    Developing a QA system called Yuba (<a href="https://yuba.douyu.com">https://yuba.douyu.com</a>)
+                </p>
+            </dd>
+
+            <dd class="clear"></dd>
+
+            <dt>Publications</dt>
+            <dd>
+                <ul>
+                  <li>
+                    <p>2021 - Wang, W., Li, Y., Wang, S., &amp; Ye, X. (2021). QA4GIS: A novel approach learning to answer GIS developer questions with API documentation. Transactions in GIS, 00, 1-26. <a href="http://doi.org/10.1111/tgis.12798">http://doi.org/10.1111/tgis.12798</a></p>
+                  </li>
+                  <li>
+                    <p>2022 - Li, Y., Wang, S., Wang, W., Nguyen, T. N., Wang, Y., & Ye, X. (2022). Rap4DQ: Learning to recommend relevant API documentation for developer questions. Empirical Software Engineering, 27(1), 1-34. <a href="https://doi.org/10.1007/s10664-021-10067-5">https://doi.org/10.1007/s10664-021-10067-5</a></p>
+                  </li>
+
+                  <li>
+                    <p>2021 - Ye, X., Wang, W., Zhang, X., Li, Z., Yu, D., Du, J. and Chen, Z. (2021), Reconstructing spatial information diffusion networks with heterogeneous agents and text contents. Transactions in GIS, 25: 1654-1673. <a href="http://doi.org/10.1111/tgis.12747">https://doi.org/10.1111/tgis.12747</a></p>
+                  </li>
+                  <li>
+                    <p>2021 - Zhang, X., Zhang, Z. K., Wang, W., Hou, D., Xu, J., Ye, X., &amp; Li, S. (2021). Multiplex network reconstruction for the coupled spatial diffusion of infodemic and pandemic of COVID-19. International Journal of Digital Earth, 14(4), 401-423. <a href="https://www.tandfonline.com/doi/full/10.1080/17538947.2021.1888326">https://doi.org/10.1080/17538947.2021.1888326</a></p>
+                  </li>
+                  <li>
+                    <p>2021 - Huan Ning, Zhenlong Li, Xinyue Ye, Shaohua Wang, Wenbo Wang & Xiao Huang (2021) Exploring the vertical dimension of street view image based on deep learning: a case study on lowest floor elevation estimation, International Journal of Geographical Information Science, DOI: <a href="https://www.tandfonline.com/doi/full/10.1080/13658816.2021.1981334">10.1080/13658816.2021.1981334</a></p>
+                  </li>
+                  <li>
+                    <p>2021 - Xiaoqi Zhang, Yanqiao Zheng, Xinyue Ye, Qiong Peng, Wenbo Wang & Shengwen Li (2021). Clustering with implicit constraints: A novel approach to housing market segmentation. Transactions in GIS, 00, 1-24. <a href="http://doi.org/10.1111/tgis.12878">https://doi.org/10.1111/tgis.12878</a></p>
+                  </li>
+                </ul>
+            </dd>
 
 
-<!DOCTYPE html>
-<html>
-  <head>
-    <link rel="stylesheet" type="text/css" href="index.css">
+            <dd class="clear"></dd>
+        </dl>
 
-    <title>Wenbo Wang - NJIT</title>
-  </head>
+        <div class="clear"></div>
 
-<img class="self_img" src="wenbo.jpg" alt="Wenbo's photo">
+    </div>
 
-
-<h2>Wenbo Wang</h2>
-
-<p>Wenbo Wang is a Ph.D. student in the Department of Informatics, College of Computing, New Jersey Institute of Technology. His research interests include Natural Language Processing, Machine Learning, Vulnerability Detection, etc. He has some publications on TGIS.</p>
-
-<h3 id="publications">Publications</h3>
-
-<ul>
-  <li>
-    <p><a href="http://doi.org/10.1111/tgis.12747">2021 - Reconstructing spatial information diffusion networks with heterogeneous agents and text contents.</a></p>
-  </li>
-  <li>
-    <p><a href="https://www.tandfonline.com/doi/full/10.1080/17538947.2021.1888326">2021 - Zhang, X., Zhang, Z. K., Wang, W., Hou, D., Xu, J., Ye, X., &amp; Li, S. (2021). Multiplex network reconstruction for the coupled spatial diffusion of infodemic and pandemic of COVID-19. International Journal of Digital Earth, 14(4), 401-423.</a></p>
-  </li>
-  <li>
-    <p><a href="http://doi.org/10.1111/tgis.12798">2021 - Wang, W., Li, Y., Wang, S., &amp; Ye, X. (2021). QA4GIS: A novel approach learning to answer GIS developer questions with API documentation. Transactions in GIS, 00, 1– 26.</a></p>
-  </li>
-  <li>
-    <p><a href="https://www.tandfonline.com/doi/full/10.1080/13658816.2021.1981334">2021 - Huan Ning, Zhenlong Li, Xinyue Ye, Shaohua Wang, Wenbo Wang & Xiao Huang (2021) Exploring the vertical dimension of street view image based on deep learning: a case study on lowest floor elevation estimation, International Journal of Geographical Information Science, DOI: 10.1080/13658816.2021.1981334</a></p>
-  </li>
-</ul>
-
-
-<h3>Social Links</h3>
-
-<ul>
-  <li>
-    <p><a href="https://github.com/Woffee">Github</a></p>
-  </li>
-  <li>
-    <p><a href="https://www.linkedin.com/in/wenbo-wang-3461211a7/">Linkedin</a></p>
-  </li>
-</ul>
-
+</body>
 
 </html>
