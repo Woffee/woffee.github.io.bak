@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <title>关于LLM的笔记 | Woffee&#39;s Blog</title>
+
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">    
+<meta name="viewport" content="width=device-width,minimum-scale=1">
+<meta name="description" content="GPT-3 的出现可以说是一个分水岭">
+<meta name="generator" content="Hugo 0.110.0">
+
+
+  <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+
+
+<link rel="stylesheet" href="/css/style.css">
+
+
+
+<link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
+
+
+
+
+
+
+
+  </head>
+
+  <body>
+    <nav class="navigation">
+	
+		<a href="/"> <span class="arrow">←</span>Home</a>
+	
+	<a href="/posts">Archive</a>
+	<a href="/tags">Tags</a>
+	<a href="/about">About</a>
+
+	
+		<a href="/cv">CV</a>
+	
+
+	
+</nav>
+
+
+    <main class="main">
+      
+
+<section id="single">
+    <h1 class="title">关于LLM的笔记</h1>
+
+    <div class="tip">
+        <time datetime="2023-02-15 11:55:41 -0500 EST">Feb 15, 2023</time>
+        <span class="split">
+          ·
+        </span>
+        <span>
+          1542 words
+        </span>
+        <span class="split">
+          ·
+        </span>
+        <span>
+          4 minute read
+        </span>
+    </div>
+
+    
+    
+        
+  
+    <aside class="toc">
+      <details>
+          <summary>Table of Contents
+          </summary>
+          <div>
+              <nav id="TableOfContents">
+  <ul>
+    <li><a href="#四大范式">四大范式</a>
+      <ul>
+        <li><a href="#gpt-3-的出现可以说是一个分水岭">GPT-3 的出现可以说是一个分水岭</a></li>
+        <li><a href="#gpt-3-发布后带来的影响">GPT-3 发布后带来的影响</a></li>
+      </ul>
+    </li>
+    <li><a href="#过渡期以gpt-30为代表的自回归语言模型prompting模式占据统治地位">过渡期：以GPT 3.0为代表的“自回归语言模型+Prompting”模式占据统治地位</a>
+      <ul>
+        <li><a href="#连续-prompting">连续 Prompting</a></li>
+        <li><a href="#离散-prompting">离散 Prompting</a></li>
+      </ul>
+    </li>
+    <li><a href="#从预训练模型走向通用人工智能">从预训练模型走向通用人工智能</a></li>
+  </ul>
+</nav>
+          </div>
+      </details>
+    </aside>
+  
+
+
+    
+
+
+    <div class="content">
+      <p>GPT-3 的出现可以说是一个分水岭</p>
+<p>原文链接：<a href="https://zhuanlan.zhihu.com/p/597586623" target="_blank" rel="noopener">https://zhuanlan.zhihu.com/p/597586623</a></p>
+<h2 id="四大范式">四大范式 <a href="#%e5%9b%9b%e5%a4%a7%e8%8c%83%e5%bc%8f" class="anchor">🔗</a></h2><p><p class="markdown-image">
+  <img src="/images/nlp_4_paradigms.png" alt="四大范式"  />
+</p></p>
+<ul>
+<li>Feature Engineering：即使用文本特征，例如词性，长度等，在使用机器学习的方法进行模型训练。（无预训练语言模型）</li>
+<li>Architecture Engineering：在W2V基础上，利用深度模型，加上固定的embedding。（有固定预训练embedding，但与下游任务无直接关系）</li>
+<li>Objective Engineering：在bert 的基础上，使用动态的embedding，在加上fine-tuning。（有预训练语言模型，但与下游任务有gap）</li>
+<li>Prompt Engineering：直接利用与训练语言模型辅以特定的prompt。（有预训练语言模型，但与下游任务无gap）</li>
+</ul>
+<h3 id="gpt-3-的出现可以说是一个分水岭">GPT-3 的出现可以说是一个分水岭 <a href="#gpt-3-%e7%9a%84%e5%87%ba%e7%8e%b0%e5%8f%af%e4%bb%a5%e8%af%b4%e6%98%af%e4%b8%80%e4%b8%aa%e5%88%86%e6%b0%b4%e5%b2%ad" class="anchor">🔗</a></h3><p>在GPT-3之前，就是第三范式，GPT-3之后，就进入了第四范式</p>
+<p><p class="markdown-image">
+  <img src="/images/prompting.png" alt="Prompting"  />
+</p></p>
+<h3 id="gpt-3-发布后带来的影响">GPT-3 发布后带来的影响 <a href="#gpt-3-%e5%8f%91%e5%b8%83%e5%90%8e%e5%b8%a6%e6%9d%a5%e7%9a%84%e5%bd%b1%e5%93%8d" class="anchor">🔗</a></h3><h4 id="影响一中间任务的消亡">影响一：中间任务的消亡 <a href="#%e5%bd%b1%e5%93%8d%e4%b8%80%e4%b8%ad%e9%97%b4%e4%bb%bb%e5%8a%a1%e7%9a%84%e6%b6%88%e4%ba%a1" class="anchor">🔗</a></h4><p>按理说，“中间任务”就不应该出现，而之所以会存在，这是NLP技术发展水平不够高的一种体现。</p>
+<p>自从Bert／GPT出现之后，其实就没有必要做这些中间任务了，</p>
+<h4 id="影响二不同研究方向技术路线的统一">影响二：不同研究方向技术路线的统一 <a href="#%e5%bd%b1%e5%93%8d%e4%ba%8c%e4%b8%8d%e5%90%8c%e7%a0%94%e7%a9%b6%e6%96%b9%e5%90%91%e6%8a%80%e6%9c%af%e8%b7%af%e7%ba%bf%e7%9a%84%e7%bb%9f%e4%b8%80" class="anchor">🔗</a></h4><p>自从Bert/GPT模型诞生后，出现了明显的技术统一趋向。首先，NLP中不同的子领域，其特征抽取 器都逐渐从LSTM/CNN统一到Transformer上</p>
+<h4 id="影响三很多nlp子领域不再具备独立研究价值">影响三：很多NLP子领域不再具备独立研究价值 <a href="#%e5%bd%b1%e5%93%8d%e4%b8%89%e5%be%88%e5%a4%9anlp%e5%ad%90%e9%a2%86%e5%9f%9f%e4%b8%8d%e5%86%8d%e5%85%b7%e5%a4%87%e7%8b%ac%e7%ab%8b%e7%a0%94%e7%a9%b6%e4%bb%b7%e5%80%bc" class="anchor">🔗</a></h4><h2 id="过渡期以gpt-30为代表的自回归语言模型prompting模式占据统治地位">过渡期：以GPT 3.0为代表的“自回归语言模型+Prompting”模式占据统治地位 <a href="#%e8%bf%87%e6%b8%a1%e6%9c%9f%e4%bb%a5gpt-30%e4%b8%ba%e4%bb%a3%e8%a1%a8%e7%9a%84%e8%87%aa%e5%9b%9e%e5%bd%92%e8%af%ad%e8%a8%80%e6%a8%a1%e5%9e%8bprompting%e6%a8%a1%e5%bc%8f%e5%8d%a0%e6%8d%ae%e7%bb%9f%e6%b2%bb%e5%9c%b0%e4%bd%8d" class="anchor">🔗</a></h2><p>Prompt其实是一个过渡期的技术，之所以有 Prompt这个技术，是因为LLM暂时不具备完全理解自然语言的能力。需要人们准确告诉它任务细节，激活LLM里与该任务相关的神经节点。</p>
+<p>这里有一个假设，或者说是前提，就是LLM具备自主学习能力。在此之上，我们才可以谈Prompt。</p>
+<p>最近几年相关的文章可分为：</p>
+<ul>
+<li>Few shot prompting</li>
+<li>Zero shot prompting</li>
+<li>In Context Learning</li>
+<li>Instruct</li>
+</ul>
+<p>这些名词实际上都是在说prompt，但只是具体做法不同，所以叫法也不同。</p>
+<p>Fine-tuning中：是预训练语言模型“迁就“各种下游任务。具体体现就是上面提到的通过引入各种辅助任务loss，将其添加到预训练模型中，然后继续pre-training，以便让其更加适配下游任务。总之，这个过程中，预训练语言模型做出了更多的牺牲。</p>
+<p>Prompting中，是各种下游任务“迁就“预训练语言模型。具体体现也是上面介绍的，我们需要对不同任务进行重构，使得它达到适配预训练语言模型的效果。总之，这个过程中，是下游任务做出了更多的牺牲。</p>
+<p>Prompt 分为离散和连续两种。离散就是说我们的prompt是一个个 token。
+连续是说，我们的prompt 是一个 embedding。</p>
+<h3 id="连续-prompting">连续 Prompting <a href="#%e8%bf%9e%e7%bb%ad-prompting" class="anchor">🔗</a></h3><p><p class="markdown-image">
+  <img src="/images/continuous_prompting.png" alt="连续 Prompting"  />
+</p></p>
+<h3 id="离散-prompting">离散 Prompting <a href="#%e7%a6%bb%e6%95%a3-prompting" class="anchor">🔗</a></h3><p><p class="markdown-image">
+  <img src="/images/prompting1.png" alt="prompting1"  />
+</p></p>
+<p>CoT的意思是让LLM模型明白一个道理；就是 在推理过程中，步子不要迈得太大，否则很容易出错，改变思维模式，化大问题为小问题</p>
+<p><p class="markdown-image">
+  <img src="/images/prompting2.png" alt="prompting1"  />
+</p></p>
+<p>“Self-Consistency”则不然，它要求LLM输出多个 不同的推理过程和答案，然后采用投票的方式选出最佳答案，思路非常简单直接，但是效果也确实好</p>
+<p><p class="markdown-image">
+  <img src="/images/prompting3.png" alt="prompting1"  />
+</p></p>
+<h2 id="从预训练模型走向通用人工智能">从预训练模型走向通用人工智能 <a href="#%e4%bb%8e%e9%a2%84%e8%ae%ad%e7%bb%83%e6%a8%a1%e5%9e%8b%e8%b5%b0%e5%90%91%e9%80%9a%e7%94%a8%e4%ba%ba%e5%b7%a5%e6%99%ba%e8%83%bd" class="anchor">🔗</a></h2><p>人适配 LLM的典型例子，比如绞尽脑汁去尝试各种不同的prompt，以试图找到好的提示语，</p>
+<p>ChatGPT的最大贡献在于：基本实现了理想LLM的接口层，让LLM适配人的习惯命令表 达方式，而不是反过来让人去适配LLM，绞尽脑汁地想出一个能Work的命令（这就是instruct技术 出来之前，prompt技术在做的事情），而这增加了LLM的易用性和用户体验。是 InstructGPT/ChatGPT首先意识到这个问题，并给出了很好的解决方案，这也是它最大的技术贡 献。相对之前的few shot prompting，它是一种更符合人类表达习惯的人和LLM进行交互的人机接口技术。</p>
+    </div>
+
+    
+        <div class="tags">
+            
+                <a href="/tags/llm">LLM</a>
+            
+                <a href="/tags/nlp">NLP</a>
+            
+        </div>
+    
+    
+    
+
+</section>
+
+
+    </main>
+    
+    <footer id="footer">
+    
+        <div id="social">
+
+
+    <a class="symbol" href="https://github.com/woffee" rel="me" target="_blank">
+        
+        <svg fill="#bbbbbb" width="28" height="28"  viewBox="0 0 72 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    
+    <title>Github</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Social-Icons---Rounded-Black" transform="translate(-264.000000, -939.000000)">
+            <g id="Github" transform="translate(264.000000, 939.000000)">
+                <path d="M8,72 L64,72 C68.418278,72 72,68.418278 72,64 L72,8 C72,3.581722 68.418278,-8.11624501e-16 64,0 L8,0 C3.581722,8.11624501e-16 -5.41083001e-16,3.581722 0,8 L0,64 C5.41083001e-16,68.418278 3.581722,72 8,72 Z" id="Rounded" fill="#bbbbbb"></path>
+                <path d="M35.9985,13 C22.746,13 12,23.7870921 12,37.096644 C12,47.7406712 18.876,56.7718301 28.4145,59.9584121 C29.6145,60.1797862 30.0525,59.4358488 30.0525,58.7973276 C30.0525,58.2250681 30.0315,56.7100863 30.0195,54.6996482 C23.343,56.1558981 21.9345,51.4693938 21.9345,51.4693938 C20.844,48.6864054 19.2705,47.9454799 19.2705,47.9454799 C17.091,46.4500754 19.4355,46.4801943 19.4355,46.4801943 C21.843,46.6503662 23.1105,48.9634994 23.1105,48.9634994 C25.2525,52.6455377 28.728,51.5823398 30.096,50.9649018 C30.3135,49.4077535 30.9345,48.3460615 31.62,47.7436831 C26.2905,47.1352808 20.688,45.0691228 20.688,35.8361671 C20.688,33.2052792 21.6225,31.0547881 23.1585,29.3696344 C22.911,28.7597262 22.0875,26.3110578 23.3925,22.9934585 C23.3925,22.9934585 25.4085,22.3459017 29.9925,25.4632101 C31.908,24.9285993 33.96,24.6620468 36.0015,24.6515052 C38.04,24.6620468 40.0935,24.9285993 42.0105,25.4632101 C46.5915,22.3459017 48.603,22.9934585 48.603,22.9934585 C49.9125,26.3110578 49.089,28.7597262 48.8415,29.3696344 C50.3805,31.0547881 51.309,33.2052792 51.309,35.8361671 C51.309,45.0917119 45.6975,47.1292571 40.3515,47.7256117 C41.2125,48.4695491 41.9805,49.9393525 41.9805,52.1877301 C41.9805,55.4089489 41.9505,58.0067059 41.9505,58.7973276 C41.9505,59.4418726 42.3825,60.1918338 43.6005,59.9554002 C53.13,56.7627944 60,47.7376593 60,37.096644 C60,23.7870921 49.254,13 35.9985,13" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>
+    </a>
+
+
+</div>
+
+    
+
+    <div class="copyright">
+    
+       © Copyright 
+       2023 
+       <span class="split">
+        <svg fill="#bbbbbb" width="15" height="15" version="1.1" id="heart-15" xmlns="http://www.w3.org/2000/svg" width="15px" height="15px" viewBox="0 0 15 15">
+  <path d="M13.91,6.75c-1.17,2.25-4.3,5.31-6.07,6.94c-0.1903,0.1718-0.4797,0.1718-0.67,0C5.39,12.06,2.26,9,1.09,6.75&#xA;&#x9;C-1.48,1.8,5-1.5,7.5,3.45C10-1.5,16.48,1.8,13.91,6.75z"/>
+</svg>
+       </span>
+       Woffee
+    
+    </div>
+
+    
+      <div class="powerby">
+        Powered by <a href='http://www.gohugo.io/'>Hugo</a> Theme By <a href='https://github.com/nodejh/hugo-theme-mini'>nodejh</a>
+      </div>
+    
+</footer>
+
+
+
+  </body>
+</html>
