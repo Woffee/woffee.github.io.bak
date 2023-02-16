@@ -17,6 +17,24 @@
     </item>
     
     <item>
+      <title>DeepVD: Toward Class-Separation Features for Neural Network Vulnerability Detection</title>
+      <link>/posts/deepvd-toward-class-separation-features-for-neural-network-vulnerability-detection/</link>
+      <pubDate>Fri, 13 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/deepvd-toward-class-separation-features-for-neural-network-vulnerability-detection/</guid>
+      <description>&lt;p&gt;The advances of machine learning (ML) including deep learning (DL) have enabled several approaches to implicitly learn vulnerable code patterns to automatically detect software vulnerabilities.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>QA4GIS: A novel approach learning to answer GIS developer questions with API documentation</title>
+      <link>/posts/qa4gis-a-novel-approach-learning-to-answer-gis-developer-questions-with-api-documentation/</link>
+      <pubDate>Mon, 19 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/qa4gis-a-novel-approach-learning-to-answer-gis-developer-questions-with-api-documentation/</guid>
+      <description>&lt;p&gt;Community-based question answering websites have attracted more and more scholars and developers to discuss domain knowledge and software development.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Matplotlib: Show labels when hovering over a point</title>
       <link>/posts/matplotlib-show-labels-when-hovering-over-a-point/</link>
       <pubDate>Wed, 25 Dec 2019 00:00:00 +0000</pubDate>

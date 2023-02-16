@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>VD on Woffee&#39;s Blog</title>
+    <link>/tags/vd/</link>
+    <description>Recent content in VD on Woffee&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 13 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="/tags/vd/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DeepVD: Toward Class-Separation Features for Neural Network Vulnerability Detection</title>
+      <link>/posts/deepvd-toward-class-separation-features-for-neural-network-vulnerability-detection/</link>
+      <pubDate>Fri, 13 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/deepvd-toward-class-separation-features-for-neural-network-vulnerability-detection/</guid>
+      <description>&lt;p&gt;The advances of machine learning (ML) including deep learning (DL) have enabled several approaches to implicitly learn vulnerable code patterns to automatically detect software vulnerabilities.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
