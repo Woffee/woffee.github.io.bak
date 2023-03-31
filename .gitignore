@@ -1,7 +1,2 @@
-_site
-.sass-cache
-.DS_Store
-.jekyll-cache/
 .idea/
-.hugo_build.lock
-resources/
+*.DS_store
