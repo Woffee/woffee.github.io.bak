@@ -1,2 +1,12 @@
 .idea/
 *.DS_store
+.jekyll-cache
+.tweet-cache
+_site
+.bundle
+.sass-cache
+.jekyll-metadata
+.DS_store
+.ruby-version
+Gemfile.lock
+vendor
